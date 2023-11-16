@@ -7,10 +7,10 @@
     <title>Gallery</title>
 </head>
 <body>
-    <ul>
-        <li><a href="/home">home</a></li>
-        <li><a href="/about">about</a></li>
-        <li><a href="/gallery">gallery</a></li>
+    <ul class=" d-flex list-unstyled">
+        <li class="mx-3"><a href="/home">home</a></li>
+        <li class="mx-3"><a href="/about">about</a></li>
+        <li class="mx-3"><a href="/gallery">gallery</a></li>
     </ul>
 
     <img src="{{$image}}" alt="place">
