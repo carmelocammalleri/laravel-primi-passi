@@ -13,7 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/home', function () {
+    //1. esteso con $data
     // $name = 'Melozzo';
     // $lastname = 'daCanicattì';
     // $data = [
@@ -23,9 +24,19 @@ Route::get('/', function () {
 
     // return view('home', $data);
 
-    //2
+    //2. compatto
     $name = 'Melozzo';
     $lastname = 'daCanicattì';
 
     return view('home', compact('name', 'lastname'));
+});
+
+Route::get('/about', function (){
+    return view('about');
+});
+
+Route::get('/gallery', function (){
+
+    $image = 'https://picsum.photos/200/300?random=1';
+    return view('gallery', compact('image'));
 });

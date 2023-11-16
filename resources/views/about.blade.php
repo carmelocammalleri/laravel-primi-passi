@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home</title>
+    <title>About</title>
 </head>
 <body>
     <ul>
@@ -13,6 +13,6 @@
         <li><a href="/gallery">gallery</a></li>
     </ul>
 
-    <h1>Ciao Mondo e soprattutto ciao a te {{$name}} {{$lastname}}</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam praesentium quas quis ratione reprehenderit, consectetur deleniti! Esse architecto alias reprehenderit quaerat. Ipsa architecto totam quas reprehenderit cupiditate tempora corrupti temporibus.</p>
 </body>
 </html>
