@@ -16,10 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $name = 'Melozzo';
     $lastname = 'daCanicattì';
+    $data = [
+        'name' => $name,
+        'lastname' => $lastname
+    ];
 
-    $data ={
-        name => $name;
-        lastname => $lastname;
-    }
-    return view('home', $date);
+
+    return view('home', $data);
 });

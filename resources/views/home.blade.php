@@ -7,6 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Ciao Mondo</h1>
+    <h1>Ciao Mondo e soprattutto ciao a te {{$name}} {{$lastname}}</h1>
 </body>
 </html>
